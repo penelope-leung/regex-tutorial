@@ -1,10 +1,50 @@
-# Title (replace with your title)
+># Regex Tutorial - Matching an Email
 
-Introductory paragraph (replace this with your text)
+On this tutorial is going to show how does regex match email address format by using 
 
-## Summary
+`/^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$/`
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex not even only support script language such as __JavaScript__ or __Python__. Regex 
+
+support text files such as __Word__ for searching text as well.
+
+>## Summary
+````
+Regex is stand for Regular Expressions which is powerful in searching and manipulating 
+
+on "find" and "find and replace" data through specify search patterns by using text strings.
+
+combine with different components to create a syntax that you can use them to matching an Email. 
+
+Regex are useful because they provide more flexible and powerful pattern matching with wildcards.
+
+````
+
+
+ </b>
+
+`/`
+
+`^`
+
+`()`
+
+`[a-z0-9_.-]`
+
+`+`
+
+`@`
+
+`[\da-z.-]`
+
+`.`
+
+`[a-z.]`
+
+`{2,6}`
+
+`$`
+
 
 ## Table of Contents
 
@@ -20,30 +60,35 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
-## Regex Components
+>## Regex Components
 
-### Anchors
 
-### Quantifiers
+>### Anchors
 
-### OR Operator
+>### Quantifiers
 
-### Character Classes
+>### OR Operator
 
-### Flags
+>### Character Classes
 
-### Grouping and Capturing
+>### Flags
 
-### Bracket Expressions
+>### Grouping and Capturing
 
-### Greedy and Lazy Match
+>### Bracket Expressions
 
-### Boundaries
+>### Greedy and Lazy Match
 
-### Back-references
+>### Boundaries
 
-### Look-ahead and Look-behind
+>### Back-references
+
+>### Look-ahead and Look-behind
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Penelope Leung
+
+Email: <url> penelope.c.leung@gmail.com
+
+Github Gist: <url> https://gist.github.com/penelope-leung/
